@@ -1,0 +1,30 @@
+{
+    "class_name": "MSTVAEModel",
+    "config": {
+        "cfg": {
+            "dataset": "machine-2-1",
+            "z_dim": 8,
+            "x_dim": 38,
+            "logstd_min": -5,
+            "logstd_max": 2,
+            "output_shapes": [
+                15,
+                30
+            ],
+            "l2_reg": 0.0001,
+            "window_size": 30,
+            "n_samples": 100,
+            "learning_rate": 0.001,
+            "lr_anneal_factor": 0.5,
+            "lr_anneal_epoch_freq": 30,
+            "n_mc_chain": 10,
+            "mcmc_iter": 10,
+            "num_epochs": 1,
+            "validation_split": 0.3,
+            "train_batch_size": 100,
+            "test_batch_size": 50
+        }
+    },
+    "keras_version": "2.8.0",
+    "backend": "tensorflow"
+}

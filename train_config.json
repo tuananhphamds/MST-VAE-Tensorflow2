@@ -1,0 +1,47 @@
+{
+	"SMD":{
+		"num_epochs": 40,
+		"learning_rate": 0.001,
+		"lr_anneal_epoch_freq": 30,
+		"validation_split": 0.3,
+		"window_size": 30,
+		"output_shapes": [15, 30],
+		"z_dim": 8
+	},
+	"ASD":{
+		"num_epochs": 40,
+		"learning_rate": 0.001,
+		"lr_anneal_epoch_freq": 30,
+		"validation_split": 0.3,
+		"window_size": 100,
+		"output_shapes": [25, 50, 100],
+		"z_dim": 13
+	},
+	"PSM":{
+		"num_epochs": 20,
+		"learning_rate": 0.0005,
+		"lr_anneal_epoch_freq": 5,
+		"validation_split": 0.1,
+		"window_size": 30,
+		"output_shapes": [15, 30],
+		"z_dim": 8
+	},
+	"SWaT":{
+		"num_epochs": 20,
+		"learning_rate": 0.0004,
+		"lr_anneal_epoch_freq": 10,
+		"validation_split": 0.1,
+		"window_size": 30,
+		"output_shapes": [15, 30],
+		"z_dim": 8
+	},
+	"WADI":{
+		"num_epochs": 15,
+		"learning_rate": 0.0002,
+		"lr_anneal_epoch_freq": 5,
+		"validation_split": 0.1,
+		"window_size": 30,
+		"output_shapes": [15, 30],
+		"z_dim": 8
+	}
+}
